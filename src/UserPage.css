@@ -1,0 +1,97 @@
+.user-page {
+    text-align: center;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 100vh;
+    background-image: url('./assets/pexels-introspectivedsgn-7809123.jpg');
+}
+
+.hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-item {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.hero-info {
+    padding: 10px;
+    text-align: left;
+}
+
+.hero-info h3 {
+    margin: 0 0 10px;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.hero-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000;
+  }
+
+  .hero-card {
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hero-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
